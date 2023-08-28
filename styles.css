@@ -1,5 +1,6 @@
 body{
     max-height: 100vh;
+    background-color: snow;
 }
 
 .up-section{
@@ -7,24 +8,43 @@ body{
     text-align: center;
     height: 50px;
 }
+ /* this is nav buttons group */
 .nav {
-    border: 1px black dashed;
+    display: flex;
+    background-color: black;
+    justify-content: center;
     text-align: center;
     height: 30px;
-    background-color: black;
+}
+li{
+    font-size: large;
+    display: flex;
+    color: white;
+    display: inline-block;
+}
+
+li:hover {
+    font-size: 20px;
 }
 .hero {
-    border: 1px black dashed;
-    text-align: center;
-    height: 180px;
+    background-image: url(https://i0.wp.com/linkedinheaders.com/wp-content/uploads/2018/02/mountain-lake-header.jpg?fit=1584%2C396&ssl=1);
+    height: 300px;
+    width: 100%;
 }
 .main-section {
-    border: 1px black dashed;
     text-align: center;
-    height: 110px;
+    height: 210px;
 }
 .footer {
-    border: 1px black dashed;
+    background-color: rgb(232, 236, 238);
     text-align: center;
     height: 80px;
 }
+
+.nav-buttons-group {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
